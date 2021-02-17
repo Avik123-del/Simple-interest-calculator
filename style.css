@@ -1,0 +1,23 @@
+body{
+    color:black;
+    font-family:arial;
+    color:white;
+}
+
+h1{
+    color:gray;
+    font:verdana;
+}
+
+.maindiv{
+    background-color:white;
+    color:black;
+    width:300px;
+    padding:20px;
+    border-radius:25px;
+    margin:auto;        /*To Align the div to centerof the page*/
+}
+
+.highlight{
+    background-color:yellow;
+}
