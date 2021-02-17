@@ -5,7 +5,7 @@ var presentYear = date.getFullYear();   //current year
 
 function compute(){
     let principal = parseFloat(document.querySelector('#principal').value);
-    if(principal<=0){
+    if(principal<=0 || isNaN(principal)){
         alert("Enter a positive number");
         document.querySelector('#principal').focus();
     }
